@@ -1,14 +1,16 @@
 <template>
-    <header class="cabecario">
-        <div class="logo">
-            <img src="../../assets/logoA.png" alt="">
-            <strong>American Bully</strong>
+    <header class="cabeca">
+        <div class="cabecario">
+            <div class="logo">
+                <img src="../../assets/logoA.png" alt="">
+                <strong>American Bully</strong>
+            </div>
+            <div class="espacador"></div>
+            <div class="botao">
+                <button>Cadastre-se</button>
+                <button>Entrar</button>
+            </div>    
         </div>
-        <div class="espacador"></div>
-        <div class="botao">
-            <button>Cadastre-se</button>
-            <button>Entrar</button>
-        </div>    
     </header>
 </template>
 
@@ -17,6 +19,10 @@
 </script>
 
 <style>
+.cabeca{
+    height: 100px;
+}
+
 .cabecario {
     height: 50px;
     background-color: rgb(241 239 233 / 43%);
